@@ -1,0 +1,73 @@
+@media (max-width: 678px){
+    .hero-section {
+        flex-direction: column;
+    }
+    .banner-img {
+        width: 330px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+    .half-width h1 {
+        font-size: 36px;
+        width: 278px;
+        line-height: 50px;
+    }
+    .half-width {
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        padding-bottom: 50px;
+    }
+
+
+
+
+    .players {
+        grid-template-columns: repeat(1, 1fr);
+        width: auto;
+    }
+    .player {
+        width: 330px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+
+
+    .highlight-section {
+        flex-direction: column;
+        height: auto;
+    }
+    .highlight {
+        margin-bottom: 30px;
+    }
+    .copa {
+        font-size: 30px;
+        width: 294px;
+    }
+    .copa-info {
+        width: 294px;
+    }
+
+
+
+
+    .footer-logo img {
+        width: 50%;
+    }
+    .social-icon ul {
+        padding: 0;
+    }
+}
+
+
+
+
+@media (min-width: 769px) and (max-width: 979px){
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+        width: auto;
+    }
+}

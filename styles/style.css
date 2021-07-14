@@ -1,0 +1,169 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* common styles and utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+:root{
+    --bg-color: #2D25A0;
+    --btn-bg: #E02C6D;
+    --font-color: #ffffff;
+}
+button {
+    font-size: 16px;
+    padding: 10px 30px;
+    background-color: var(--btn-bg);
+    color: var(--font-color);
+    border: none;
+}
+button .fas{
+    display: none;
+}
+.button:hover .fas{
+    display: block;
+}
+
+/* header part start */
+.navbar {
+    background-color: var(--bg-color);
+    padding: 42px 0;
+}
+.navbar-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+.menu ul li {
+    list-style: none;
+    margin-right: 30px;
+    display: inline;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: var(--font-color);
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+.menu ul li:hover a{
+    color: var(--btn-bg);
+}
+/* header part end */
+
+/* hero part start */
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--bg-color);
+    padding: 50px 0 70px 0;
+}
+.half-width {
+    width: 40%;
+}
+.half-width h1 {
+    font-size: 64px;
+    width: 485px;
+    line-height: 80px;
+    color: #fff;
+}
+.banner-img {
+    width: 556px;
+}
+/* hero part end */
+
+/* palyer part start */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    width: 1050px;
+    margin: auto;
+    padding: 70px 0 30px 1px;
+}
+.player{
+    width: 330px;
+    box-shadow: 0px 0px 20px 0px #00000045;}
+.player-image{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 15px;
+}
+.player-name{
+    font-size: 28px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+.player-info{
+    font-size: 16px;
+    padding: 0 15px;
+}
+/* player part end */
+
+/* highlight part start */
+.highlight-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 60px 0;
+}
+.highlight{
+    
+}
+.copa{
+    font-size: 48px;
+    width: 469px;
+    margin: 0;
+}
+.copa-info{
+    font-size: 16px;
+    width: 404px;
+}
+
+/* highlight part end */
+
+/* youtube part */
+.y-video{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+/* footer part start */
+footer{
+    padding-bottom: 63px;
+}
+.footer-logo img{
+    margin-left: auto;
+    width: 25%;
+    margin-right: auto;
+    display: block;
+}
+.social-icon ul{
+    display: flex;
+    justify-content: center;
+}
+.social-icon ul li{
+    list-style: none;
+    margin-right: 15px;
+}
+.social-icon ul li a{
+}
+.social-icon ul li a i{
+        color: #969BAB;
+        font-size: 17px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 30px;
+        background: #969bab47;
+}
+footer p{
+    text-align: center;
+}
