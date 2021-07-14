@@ -65,9 +65,22 @@
 
 
 
-@media (min-width: 769px) and (max-width: 979px){
+@media (min-width: 769px), (max-width: 979px){
     .players {
         grid-template-columns: repeat(2, 1fr);
         width: auto;
     }
+    .copa {
+         width: 365px;
+    }
+    .banner-img {
+        width: 368px;
+    }
+    .half-width h1 
+        width: 445px;
+    }
+    
+    
+    
+    
 }
